@@ -15,12 +15,12 @@ DEEPSEEK_API_KEY = os.getenv("sk-f3420576ea824884ae6b344a3f48ece1")
 # Проверка ключей
 if not BOT_TOKEN:
     print("❌ ОШИБКА: BOT_TOKEN не найден!")
-    print("Выполните: export BOT_TOKEN='ваш_токен'")
+    print("Выполните: export BOT_TOKEN='8183953049:AAHSnZqbHvu957v52bN7iVVFAzENYeSU3Tw'")
     exit(1)
 
 if not DEEPSEEK_API_KEY:
     print("❌ ОШИБКА: DEEPSEEK_API_KEY не найден!")
-    print("Выполните: export DEEPSEEK_API_KEY='ваш_ключ'")
+    print("Выполните: export DEEPSEEK_API_KEY='sk-f3420576ea824884ae6b344a3f48ece1'")
     exit(1)
 
 # Инициализация клиентов
@@ -62,4 +62,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
+
     main()
